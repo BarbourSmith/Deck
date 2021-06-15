@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|2x6|1|$36.00|www.example.com|
-|Total: |1|$36.00| |
+|2x6x12'|1|$0.00|www.example.com|
+|Total: |1|$0.00| |
 
- 3xCOG MSRP: $108.00
+ 3xCOG MSRP: $0.00
