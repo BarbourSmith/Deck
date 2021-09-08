@@ -2,8 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|2x6x16'|10|$0.00|www.example.com|
-|2x6x20'|5|$360.00|www.example.com|
-|Total: |15|$360.00| |
+|2x6x20'|5.5|$407.00|No Source?|
+|2x6x16'|11|$325.60|https://www.lowes.com/pd/Trex-Enhance-Basics-16-ft-Clam-Shell-Grooved-Composite-Deck-Board/1000763522|
+|Total: |16.5|$732.60| |
 
- 3xCOG MSRP: $1080.00
+ 3xCOG MSRP: $2197.80
