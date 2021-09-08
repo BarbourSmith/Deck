@@ -4,6 +4,7 @@
  |----|----------|-----|-----|
 |2x6x20'|5.5|$407.00|No Source?|
 |2x6x16'|11|$325.60|https://www.lowes.com/pd/Trex-Enhance-Basics-16-ft-Clam-Shell-Grooved-Composite-Deck-Board/1000763522|
-|Total: |16.5|$732.60| |
+|Trex Clips|0.030555555555555558|$1529.00|https://www.lowes.com/pd/Trex-Universal-200-sq-ft-Coverage-Black-Clip-Hidden-Fasteners-360-Count/1001364364|
+|Total: |16.530555555555555|$2261.60| |
 
- 3xCOG MSRP: $2197.80
+ 3xCOG MSRP: $6784.80

@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Boards",
-            "x": 0.20644216691068812,
-            "y": 0.3129770992366412,
+            "x": 0.20790629575402636,
+            "y": 0.3091603053435114,
             "uniqueID": 483410,
             "ioValues": [],
             "topLevel": false,
@@ -458,6 +458,10 @@
                         {
                             "name": "3D shape 6",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 8",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -745,6 +749,131 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Clips",
+                    "x": 0.42313323572474376,
+                    "y": 0.8549618320610687,
+                    "uniqueID": 877743,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.27306002928257683,
+                            "y": 0.3931297709923664,
+                            "uniqueID": 156559,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/157516/483410/877743/672666Rectangle"
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.1493411420204978,
+                            "y": 0.5152671755725191,
+                            "uniqueID": 672666,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Color",
+                            "name": "Color",
+                            "x": 0.3982430453879941,
+                            "y": 0.4732824427480916,
+                            "uniqueID": 451929,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/157516/483410/877743/156559Extrude"
+                                }
+                            ],
+                            "selectedColorIndex": "19"
+                        },
+                        {
+                            "atomType": "Add-BOM-Tag",
+                            "name": "Add BOM Tag",
+                            "x": 0.5761346998535871,
+                            "y": 0.366412213740458,
+                            "uniqueID": 412933,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/157516/483410/877743/451929Color"
+                                }
+                            ],
+                            "BOMitem": {
+                                "BOMitemName": "Trex Clips",
+                                "numberNeeded": 0.002777777777777778,
+                                "costUSD": 139,
+                                "source": "https://www.lowes.com/pd/Trex-Universal-200-sq-ft-Coverage-Black-Clip-Hidden-Fasteners-360-Count/1001364364",
+                                "totalNeeded": 1,
+                                "radius": 0.015384615384615385
+                            }
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "uniqueID": 790885,
+                            "ioValues": [
+                                {
+                                    "name": "number or geometry",
+                                    "ioValue": "atoms/157516/483410/877743/412933Add-BOM-Tag"
+                                }
+                            ]
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 156559,
+                            "ap2ID": 451929
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 672666,
+                            "ap2ID": 156559
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 451929,
+                            "ap2ID": 412933
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 412933,
+                            "ap2ID": 790885
+                        }
+                    ],
+                    "fileTypeVersion": 1,
+                    "simplify": false
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -821,6 +950,13 @@
                     "ap2Primary": false,
                     "ap1ID": 343693,
                     "ap2ID": 496529
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 8",
+                    "ap2Primary": false,
+                    "ap1ID": 877743,
+                    "ap2ID": 359266
                 }
             ],
             "fileTypeVersion": 1,
