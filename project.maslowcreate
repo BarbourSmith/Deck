@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Boards",
-            "x": 0.20717423133235727,
-            "y": 0.3511450381679389,
+            "x": 0.20204978038067348,
+            "y": 0.3549618320610687,
             "uniqueID": 483410,
             "ioValues": [],
             "topLevel": false,
@@ -705,54 +705,10 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Linear Pattern",
-                    "x": 0.7811127379209369,
-                    "y": 0.5229007633587786,
-                    "uniqueID": 873691,
-                    "projectID": "304166099",
-                    "ioValues": [
-                        {
-                            "name": "Spacing",
-                            "ioValue": 6.25
-                        },
-                        {
-                            "name": "Number",
-                            "ioValue": 11
-                        }
-                    ],
-                    "simplify": false
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.8696925329428989,
-                    "y": 0.366412213740458,
-                    "uniqueID": 343693,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/157516/483410/873691GitHubMolecule"
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 90
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Clips",
                     "x": 0.41727672035139096,
-                    "y": 0.8473282442748092,
+                    "y": 0.8396946564885496,
                     "uniqueID": 877743,
                     "ioValues": [],
                     "topLevel": false,
@@ -822,8 +778,8 @@
                             ],
                             "BOMitem": {
                                 "BOMitemName": "Trex Clips",
-                                "numberNeeded": 0.002777777777777778,
-                                "costUSD": 139,
+                                "numberNeeded": 1,
+                                "costUSD": 0.3861111111111111,
                                 "source": "https://www.lowes.com/pd/Trex-Universal-200-sq-ft-Coverage-Black-Clip-Hidden-Fasteners-360-Count/1001364364",
                                 "totalNeeded": 1,
                                 "radius": 0.015384615384615385
@@ -1068,6 +1024,50 @@
                     "simplify": false
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Linear Pattern",
+                    "x": 0.7811127379209369,
+                    "y": 0.5229007633587786,
+                    "uniqueID": 873691,
+                    "projectID": "304166099",
+                    "ioValues": [
+                        {
+                            "name": "Spacing",
+                            "ioValue": 6.25
+                        },
+                        {
+                            "name": "Number",
+                            "ioValue": 11
+                        }
+                    ],
+                    "simplify": false
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.8696925329428989,
+                    "y": 0.366412213740458,
+                    "uniqueID": 343693,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/157516/483410/873691GitHubMolecule"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -1133,6 +1133,13 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 8",
+                    "ap2Primary": false,
+                    "ap1ID": 877743,
+                    "ap2ID": 359266
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 873691,
@@ -1144,13 +1151,6 @@
                     "ap2Primary": false,
                     "ap1ID": 343693,
                     "ap2ID": 496529
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 8",
-                    "ap2Primary": false,
-                    "ap1ID": 877743,
-                    "ap2ID": 359266
                 }
             ],
             "fileTypeVersion": 1,
